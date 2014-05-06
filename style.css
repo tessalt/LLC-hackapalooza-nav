@@ -114,10 +114,14 @@
     .menu > a {
       float: right;
     }
+    .menu li:hover ul {
+      display: block;
+    }
     .menu li ul {
       position: absolute;
       background: white;
       min-width: 170px;
+      display: none;
     }
     .menu li ul li {
       display: block;
