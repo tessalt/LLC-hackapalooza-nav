@@ -117,6 +117,7 @@
     .menu li ul {
       position: absolute;
       background: white;
+      min-width: 170px;
     }
     .menu li ul li {
       display: block;
