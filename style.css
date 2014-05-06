@@ -126,3 +126,22 @@
     .menu li ul li {
       display: block;
     }
+
+@media all and (max-width: 699px) {
+  .menu {
+    padding: 0;
+    position: relative;
+  }
+  .menu ul {
+    float: none;
+  }
+  .menu > a {
+    float: none;
+  }
+  .menu li {
+    display: block;
+  }
+  .menu li ul {
+    position: relative;
+  }
+}
